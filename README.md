@@ -76,7 +76,7 @@ Here are some tactics to help you achieve these principles:
 
 #### For principle 1:
 
-- __Tactic 1__: __Use delimiters__ to clearly indicate distinct parts of the input. Delimiters can be anything like: ```, """, < >, <tag> </tag>, :
+- __Tactic 1__: __Use delimiters__ to clearly indicate distinct parts of the input. Delimiters can be anything: ```, """, < >, <tag> </tag>, :.
 - __Tactic 2__: Ask for a __structured__ output. JSON, HTML. Example: _Provide them in JSON format with the following keys: book_id, title, author, genre._
 - __Tactic 3__: Ask the model to check whether __conditions__ are satisfied. Example: _If the text does not contain X then do Y_
 - __Tactic 4__: "Few-shot" prompting, where the AI is given a few __examples__ of a task before performing a similar task. Example: _Your task is to answer in a consistent style. X: blah. Y: blah blah blah. X: blah blah._
