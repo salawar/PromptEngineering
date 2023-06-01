@@ -9,6 +9,9 @@ __What are the goals of the course material?__
 
 - Develop precise, reliable, and validated NLP prompts for models like ChatGPT.
 - Gain deeper insights into the potential and constraints of natural language processing models.
+---
+***
+___
 ## Introduction
 __What is a Large Language Model (LLM)?__
 - It is an AI that produces human-like text from the data it's trained on. Although it can't understand or hold opinions (for now), it's helpful for tasks like writing, coding, and language learning.
