@@ -85,7 +85,7 @@ Here are some tactics to help you achieve these principles:
 
 - __Tactic 1__: Specify the steps required to complete a task. Example: _Perform the following actions: 1- Summarize blah. 2- Translate bla blah blah. 3- List and output blah blah._
 
-- __Tactic 2__: Ask for output in a specified format. Example: _Text: <text to summarize>, Summary: <summary>, Translation: <summary translation>, Names: <list of names>_
+- __Tactic 2__: Ask for output in a specified format. Example: _Text: 'text to summarize', Summary: 'summary', Translation: 'summary translation', Names: 'list of names'_
 
 - __Tactic 3__: Instruct the model to work out its own solution before rushing to a conclusion.
 
