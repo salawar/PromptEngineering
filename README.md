@@ -9,9 +9,7 @@ __What are the goals of the course material?__
 
 - Develop precise, reliable, and validated NLP prompts for models like ChatGPT.
 - Gain deeper insights into the potential and constraints of natural language processing models.
----
 ***
-___
 ## Introduction
 __What is a Large Language Model (LLM)?__
 - It is an AI that produces human-like text from the data it's trained on. Although it can't understand or hold opinions (for now), it's helpful for tasks like writing, coding, and language learning.
@@ -29,6 +27,7 @@ Example 2 - Prompt: What is the capital of France? | Answer: What is France's la
 ```
 Example: Prompt: What is the capital of France? | Answer: The capital of France is Paris.
 ```
+***
 ## Guidelines for Prompting
 This is the __setup__ to load the API key and relevant Python libraries.
 
@@ -94,8 +93,9 @@ Here are some tactics to help you achieve these principles:
 
 ### Model Limitations: Hallucinations
 Hallucinations in AI refer to the generation of __plausible but incorrect or unverifiable information__ by the model. Example: _If you ask an AI model, "What color is a Math Fairy's dress?" and the AI responds with "A Math Fairy's dress is typically blue with equations written all over it.", this would be considered a hallucination. In reality, a "Math Fairy" does not exist, so the AI is inventing or "hallucinating" this information._
+***
 ## Iterative Prompt Development
-  
+***
 ## Acknowledgements
 
  - Shout out to my friend [Gabriel Martinica](github.com/Gmartinica) for providing me with some of his notes from the [course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
