@@ -95,6 +95,15 @@ Here are some tactics to help you achieve these principles:
 Hallucinations in AI refer to the generation of __plausible but incorrect or unverifiable information__ by the model. Example: _If you ask an AI model, "What color is a Math Fairy's dress?" and the AI responds with "A Math Fairy's dress is typically blue with equations written all over it.", this would be considered a hallucination. In reality, a "Math Fairy" does not exist, so the AI is inventing or "hallucinating" this information._
 ***
 ## Iterative Prompt Development
+This concept means __to continuously improve the instructions__ given to the language model to get better results.
+
+### Issues a user my encounter
+- __Issue 1__: The text retrieved is too long.
+    - Solution: Limit the number of words/sentences/characters. Example: "_Your task is X. Use at most 50 words._"
+- __Issue 2__: The text retrieved focuses on the wrong details.
+    - Solution: Include in your prompt to focus on the aspects that are relevant to the intended audience. Example: "_Your task is X. The X is intended for Y audience, so X should focus on Z._"
+- __Issue 3__: The text retrieved requires specific information.
+    - Solution: Be specific about the output you want, the more details the better.
 ***
 ## Acknowledgements
 
