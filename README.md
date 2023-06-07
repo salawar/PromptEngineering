@@ -98,18 +98,18 @@ Hallucinations in AI refer to the generation of __plausible but incorrect or unv
 This concept means __to continuously improve the instructions__ given to the language model to get better results.
 
 ### Issues a user my encounter
-- __Issue 1__: The text retrieved is too long.
-    - Solution: Limit the number of words/sentences/characters. Example: "_Your task is X. Use at most 50 words._"
-- __Issue 2__: The text retrieved focuses on the wrong details.
-    - Solution: Include in your prompt to focus on the aspects that are relevant to the intended audience. Example: "_Your task is X. The X is intended for Y audience, so X should focus on Z._"
-- __Issue 3__: The text retrieved requires specific information.
-    - Solution: Be specific about the output you want, the more details the better.
+- __Issue 1__: The text retrieved is __too long__.
+    - Solution: __Limit__ the number of words/sentences/characters. Example: "_Your task is X. Use at most 50 words._"
+- __Issue 2__: The text retrieved focuses on the __wrong details__.
+    - Solution: Include in your prompt to __focus__ on the aspects that are __relevant__ to the __intended audience__. Example: "_Your task is X. The X is intended for Y audience, so X should focus on Z._"
+- __Issue 3__: The text retrieved requires __more specific__ information.
+    - Solution: Be __specific__ about the output you want.
 ***
 ## Summarizing
-- Request to summarize with a word limit. Example: _Summarize the following text, delimited by curly braces, in at most 30 words. Review: { text to summarize }._
-- Summarize with a focus on something specific. Example: _Summarize X, and focus on Y._
+- Request to summarize with a __word limit__. Example: _Summarize the following text, delimited by curly braces, in at most 30 words. Review: { text to summarize }._
+- Summarize with a __focus__ on something specific. Example: _Summarize X, and focus on Y._
 - Depending on how you want your retrieved text, you can try using the word __"extract"__ instead of "summarize" to get information that is more mostly relevant to the input text.
-- Use a for loop to summarize multiple long texts in succession. Example:
+- Use a __for loop__ to summarize multiple long texts in succession. Example:
 ```python
 for i in range(len(reviews)):
     prompt = f"""
@@ -127,6 +127,5 @@ for i in range(len(reviews)):
 ```
 ***
 ## Acknowledgements
-
  - Shout out to my friend [Gabriel Martinica](github.com/Gmartinica) for providing me with some of his notes from the [course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
 
