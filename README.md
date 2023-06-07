@@ -105,6 +105,27 @@ This concept means __to continuously improve the instructions__ given to the lan
 - __Issue 3__: The text retrieved requires specific information.
     - Solution: Be specific about the output you want, the more details the better.
 ***
+## Summarizing
+- Request to summarize with a word limit. Example: _Summarize the following text, delimited by curly braces, in at most 30 words. Review: { text to summarize }._
+- Summarize with a focus on something specific. Example: _Summarize X, and focus on Y._
+- Depending on how you want your retrieved text, you can try using the word __"extract"__ instead of "summarize" to get information that is more mostly relevant to the input text.
+- Use a for loop to summarize multiple long texts in succession. Example:
+```python
+for i in range(len(reviews)):
+    prompt = f"""
+    Your task is to generate a short summary of a product \ 
+    review from an ecommerce site. 
+
+    Summarize the review below, delimited by triple \
+    backticks in at most 20 words. 
+
+    Review: ```{reviews[i]}```
+    """
+
+    response = get_completion(prompt)
+    print(i, response, "\n")
+```
+***
 ## Acknowledgements
 
  - Shout out to my friend [Gabriel Martinica](github.com/Gmartinica) for providing me with some of his notes from the [course](https://www.deeplearning.ai/short-courses/chatgpt-prompt-engineering-for-developers/).
